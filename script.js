@@ -350,7 +350,7 @@
 
       if (detectedMode === 'encode') {
         var primeBadgeHtml = response.isPrimeFlag ? '<span class="prime-badge">prime</span>' : '';
-        resultBoxDisplay.innerHTML = (finalAnswerString === '' ? '<span class="mono">(empty string this is 1)</span>' : paintRainbowParentheses(finalAnswerString)) + primeBadgeHtml;
+        resultBoxDisplay.innerHTML = (finalAnswerString === '' ? '<span class="mono">(empty string — this is 1)</span>' : paintRainbowParentheses(finalAnswerString)) + primeBadgeHtml;
         savedResultForClipboard = finalAnswerString;
       } else {
         resultBoxDisplay.textContent = finalAnswerString;
